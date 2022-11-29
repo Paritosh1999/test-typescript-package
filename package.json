@@ -1,0 +1,25 @@
+{
+  "name": "testpackage",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000e\u0000s\u0000t\u0000-\u0000t\u0000y\u0000p\u0000e\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u0000p\u0000a\u0000c\u0000k\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "dist/index.js",
+  "types":"dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paritosh1999/test-typescript-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paritosh1999/test-typescript-package/issues"
+  },
+  "homepage": "https://github.com/Paritosh1999/test-typescript-package#readme",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "files":["dist/**/*"]
+}
